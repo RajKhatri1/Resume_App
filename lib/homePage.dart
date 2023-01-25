@@ -36,8 +36,8 @@ class _Screen2State extends State<Screen2> {
       child: SafeArea(
         child: Scaffold(
           appBar: AppBar(
-            backgroundColor: Colors.black,
-            title: Text("Resume Builder"),
+            backgroundColor: Colors.blueAccent,
+            title: Text("Resume"),
           ),
           body: SingleChildScrollView(
             child: Column(
@@ -494,7 +494,7 @@ class _Screen2State extends State<Screen2> {
                     });
                   },child: Text("Submit")),
                   style:
-                      ElevatedButton.styleFrom(backgroundColor: Colors.black),
+                      ElevatedButton.styleFrom(backgroundColor: Colors.blueAccent),
                 ),
               ],
             ),
